@@ -6,4 +6,7 @@ class Solution(object):
         """
         x = str(x)
         return (x == x[::-1])
+         
+
+               
         

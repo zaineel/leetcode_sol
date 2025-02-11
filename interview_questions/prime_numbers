@@ -1,0 +1,8 @@
+# print the print numbers between 4 and 50
+
+for i in range(4, 51):
+    for j in range(2, i):
+        if i % j == 0:
+            break
+    else:
+        print(i)
