@@ -4,5 +4,17 @@ for i in range(4, 51):
     for j in range(2, i):
         if i % j == 0:
             break
-    else:
+    else:                   # this else is for the for loop, not the if loop
+        print(i)            # if the for loop completes without breaking, then print the number
+
+
+
+
+for i in range(4, 51):
+    flag = False
+    for j in range(2, i):
+        if i % j == 0:
+            flag = True
+            break
+    if not flag:
         print(i)
