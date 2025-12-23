@@ -4,6 +4,7 @@ from collections import defaultdict
 class Solution:
     def subArraySum(self, nums: list[int], k: int) -> int:
         freq = defaultdict(int)
+        freq[0] = 1
         count = 0                       # ans
         prefix = 0                      # running total
 
