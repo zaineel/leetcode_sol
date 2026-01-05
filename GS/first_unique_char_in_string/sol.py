@@ -10,3 +10,14 @@ class solution:
             if freq_map[s[i]] == 1:
                 return i
         return -1
+
+        # count = [0] * 26 'aabb'
+        
+        # for char in s:
+        #     count[ord(char) - ord('a')] += 1 //[2,2,0,0,0,0,0,0,...]
+        # for i, char in enumerate(s):
+        #     if count[ord(char) - ord('a')] == 1: //[2,2,0,0,0,0,0,0,...]
+        #         return i 
+        # return -1
+        
+                
